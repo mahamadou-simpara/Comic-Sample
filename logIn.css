@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_DvXt56OUpfrdDX_8ZSJRVTtVm14KyyMzg&usqp=CAU);
+ 
+}
+
+
+body {
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+body div {
+    background-color: rgba(201, 6, 6, 0.758);
+    width: 20rem;
+    height: 30rem;
+    border-radius: 10px;
+}

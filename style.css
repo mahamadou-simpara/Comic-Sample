@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://wallpaperwaifu.com/wp-content/uploads/2022/06/goku-ultra-instinct-dragon-ball-thumb.jpg);
+  /* background-image: url(https://wallpapers.com/images/featured/dragon-ball-super-31k7m53hb2l6rbge.jpg); */
+  /* background-image: url(https://store-images.s-microsoft.com/image/apps.16480.14590500575984840.863197c0-3380-4e42-a4d4-63c5608f656b.81129bca-eb6e-4f32-bf45-36a85827dba3?mode=scale&q=90&h=720&w=1280&format=jpg); */
+  /* background-image: url(https://static1.thegamerimages.com/wordpress/wp-content/uploads/2018/12/goku-strong-wallpaper.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+html body {
+
+  background-color: black;
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  /* background-image: url(https://wallpapers.com/images/hd/4k-anime-iphone-dragon-ball-gohan-6b5as29x571xtvwn.jpg); */
+  /* background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Fwallpapers%2Fiphone-12-anime-dragon-ball-vegeta-6s8acbf19z9zzrjd.html&psig=AOvVaw1jnTDcGnt3ySn1Ej0xfmrv&ust=1704372920816000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCOhYqiwYMDFQAAAAAdAAAAABA5); */
+  /* background-image: url(https://images.wallpapersden.com/image/download/dragon-ball-z-4k-cool_bG1pa2mUmZqaraWkpJRqZmdlrWdtbWU.jpg); */
+  background-image: url(https://www.fredzone.org/wp-content/uploads/2022/04/Goku-et-Vegeta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin: 5rem; */
+}
+
+header {
+  padding: 0  1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  font-family: sans-serif;
+}
+
+header h1{
+ font-weight: bold;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 400;
+}
+
+
+main {
+ display: flex;
+ justify-content: center;
+ height: 100%;
+ flex-direction: column;
+}
+
+main div{
+ text-transform: uppercase;
+ color: rgba(0, 0, 0, 0.867);
+ font-size: 2rem;
+ background-color: rgb(119, 119, 119);
+}
